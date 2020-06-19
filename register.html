@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>HEALTH TRACK</title>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body class="background-gray">
+
+    <div class="limiter">
+        <div class="container-login-left">
+            <div class="col-md-7 login100-more">
+                <p id="login_title">
+                    HEALTH <br>
+                    TRACK</p>
+            </div>
+
+            <div class="col-md-5 container-login-right">
+                <div class="login100-more">
+                    <div class="row">
+                        <h3>Criar conta</h3>
+                        <br>
+                        <br>
+
+                        <form class="form col-md-12" action="home.html">
+                            <div class="form-group">
+                                <label for="name">Nome:</label>
+                                <input type="name" class="form-control" id="nome" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name">Sobrenome:</label>
+                                <input type="name" class="form-control" id="sobrenome" required>
+                            </div>
+
+                            <div class="form-group ">
+                                <label for="name">Idade:</label>
+                                <input type="number" minlength="2" maxlength="3" class="form-control" id="idade">
+                            </div>
+
+                            <div class="form-group ">
+                                <label for="name">Peso:</label>
+                                <input type="number"  class="form-control" id="peso">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd">Senha:</label>
+                                <input type="password" min class="form-control" id="pwd" required>
+                            </div>
+                            <br>
+
+                            <button type="submit" class="btn btn-outline-primary btn-lg btn-block">Entrar</button>
+                            <br>
+
+                            <a href="javascript:history.back()">
+                                <p class="text-center text-black-50">Já possui uma conta? <u
+                                        class="text-primary">Entrar</u></p>
+                            </a>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="vendor/jquery/jquery-3.5.1.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
