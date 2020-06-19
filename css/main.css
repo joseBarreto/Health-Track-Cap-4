@@ -1,0 +1,46 @@
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.background-gray {
+    background-color: #9D9A9A;
+}
+
+.container-login-left {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.container-login-right {
+    min-height: 100vh;
+    background: #fff;
+    border-radius: 2px;
+    display: flex;
+    width: 100%;
+}
+
+.login100-more {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#login_title {
+    text-align: center;
+    font-size: 78px;
+    width: 100%;
+    color: #fff;
+}
